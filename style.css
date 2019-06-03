@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+background: yellowgreen;
+height: 30px;
+}
+
+.content {
+    background-color: blue;
+    height: 200px;
+    width: 80%;
+}
+
+.outer-div {
+    display: flex;
+}
+
+.sidebar {
+    background-color: red;
+    height: 300px;
+    width: 30%;
+}
