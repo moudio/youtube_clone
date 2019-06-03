@@ -5,11 +5,10 @@
 
 nav {
 background: yellowgreen;
-height: 30px;
+height: 60px;
 }
 
 .content {
-    background-color: blue;
     height: 200px;
     width: 80%;
 }
@@ -19,7 +18,20 @@ height: 30px;
 }
 
 .sidebar {
-    background-color: red;
     height: 300px;
     width: 30%;
+}
+
+.nav-icon {
+    width: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display:flex;
+    list-style-type: none;
 }
