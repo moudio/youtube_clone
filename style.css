@@ -4,8 +4,36 @@
 }
 
 nav {
-background: yellowgreen;
-height: 60px;
+    background: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.nav-icon {
+    width: 20px;
+    margin-right: 15px;
+
+}
+
+.nav-list {
+    display:flex;
+    list-style-type: none;
+}
+
+.profile {
+    width: 25px;
+}
+
+.second-ul, .first-ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
 }
 
 .content {
@@ -22,16 +50,18 @@ height: 60px;
     width: 30%;
 }
 
-.nav-icon {
-    width: 40px;
+.searchbar{
+    width: 500px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 0 10px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.search-button {
+    display: inline;
 }
-.nav-list {
-    display:flex;
-    list-style-type: none;
+
+.fa-search{
+    padding: 8px;
 }
