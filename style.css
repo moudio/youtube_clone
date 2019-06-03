@@ -84,10 +84,12 @@ nav {
 
 .video-details {
     display: flex;
+    border-bottom: 2px solid lightgray;
 }
 
 .title h1 {
     margin: 15px 0;
+    font-size: 25px;
 }
 
 .video-details .views {
@@ -106,5 +108,27 @@ nav {
 .video-details .likes .fa {
     padding: 20px;
     font-size: 27px;
+    color: rgb(170, 170, 170);
     
+}
+
+.underline{
+    margin-top: 2px;
+    border-bottom: 2px solid gray;
+}
+
+.owner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+     
+
+}
+
+button {
+    order: 1;
+    background-color:#cc0000;
+    color: white;
+    padding: 0 15px;
+    font-weight: bold;
 }
