@@ -70,6 +70,8 @@ nav {
 .fa-search{
     padding: 7.70px 22px; 
 }
+
+
 /* OUTER DIV */
 
 .content {
@@ -178,4 +180,58 @@ nav {
 
 .description a {
     text-decoration: none;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+  margin-right: 25px;
+}
+
+.thumbnail-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upnext, .autoplay {
+    color: black;
+}
+
+.upnext {
+    font-size: 17px;
+}
+
+.autoplay {
+    font-size: 14px;
+}
+
+.fa-toggle-on {
+    color: blue;
+}
+
+#autoplay-button {
+    font-size: 18px;
+}
+
+
+.sidebar-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.side-media1 {
+   margin-left: 15px;
+}
+
+.sidetitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidedate {
+    font-size: 14px;
+    color: lightslategray;
+    margin-top: 10px;
 }
