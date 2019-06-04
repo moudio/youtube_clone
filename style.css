@@ -89,7 +89,7 @@ nav {
 
 .title h1 {
     margin: 15px 0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .video-details .views {
@@ -121,6 +121,9 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgray;
+
      
 }
 
@@ -131,12 +134,23 @@ nav {
     padding: 0 15px;
     font-weight: bold;
     border: none;
+    max-height: 45px;
 }
 
 .owner-name {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
+}
+
+.owner-logo {
+    width: 50px;
+    margin: 0 15px;
+}
+
+.owner-logo img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 .publish {
@@ -151,4 +165,11 @@ nav {
 .bleacher-title{
     font-size: 15px;
     font-weight: bold;
+}
+
+
+.description {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 14px;
 }
