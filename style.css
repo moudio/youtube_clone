@@ -125,10 +125,11 @@ nav {
 
 }
 
-button {
+.owner button {
     order: 1;
     background-color:#cc0000;
     color: white;
     padding: 0 15px;
     font-weight: bold;
+    border: none;
 }
