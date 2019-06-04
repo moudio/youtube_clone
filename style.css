@@ -75,6 +75,11 @@ button {
     padding: 7.70px 22px; 
 }
 
+.share-icon {
+    color: black;
+    font-size: 13px;
+}
+
 
 /* OUTER DIV */
 
@@ -186,7 +191,6 @@ button {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 /* Comments section */
 
 .comments-section {
@@ -207,8 +211,9 @@ button {
 
 .add-comment {
     display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
 }
 
 .comments-section input {
@@ -217,9 +222,9 @@ button {
         border-top: none;
         border-left: none;
         border-right: none;
-        height: 20px;
+        height: 27px;
+        font-size: 1rem;
 }
-=======
 
 /* SIDEBAR */
 
@@ -273,4 +278,3 @@ button {
     color: lightslategray;
     margin-top: 10px;
 }
->>>>>>> 1ab2593f633f70ead4f6c966c66771bbeb34734d
