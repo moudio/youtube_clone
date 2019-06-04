@@ -65,8 +65,12 @@ nav {
 
 .search-button {
     display: inline;
+    
 }
 
+button {
+    cursor: pointer;
+}
 .fa-search{
     padding: 7.70px 22px; 
 }
@@ -178,4 +182,37 @@ nav {
 
 .description a {
     text-decoration: none;
+}
+
+/* Comments section */
+
+.comments-section {
+    margin-top: 15px;
+}
+
+.comments-number {
+    margin: 30px;
+}
+
+.comments-section .fa {
+    margin: 10px;
+}
+
+.profile-comment {
+    width: 50px;
+}
+
+.add-comment {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.comments-section input {
+
+        width: 95%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 20px;
 }
