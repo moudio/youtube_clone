@@ -173,3 +173,7 @@ nav {
     line-height: 1.6;
     font-size: 14px;
 }
+
+.description a {
+    text-decoration: none;
+}
