@@ -122,7 +122,6 @@ nav {
     justify-content: space-between;
     margin-top: 25px;
      
-
 }
 
 .owner button {
@@ -132,4 +131,24 @@ nav {
     padding: 0 15px;
     font-weight: bold;
     border: none;
+}
+
+.owner-name {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.publish {
+    font-size: 12px;
+    color: lightslategray;
+}
+
+.image {
+    width: 22px;
+}
+
+.bleacher-title{
+    font-size: 15px;
+    font-weight: bold;
 }
