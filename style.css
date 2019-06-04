@@ -50,6 +50,8 @@ nav {
 .sidebar {
     height: 300px;
     width: 30%;
+    margin-top: 79px;
+    margin-left: 20px;
 }
 
 .searchbar{
