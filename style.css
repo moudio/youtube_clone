@@ -45,6 +45,16 @@ nav {
     align-items: center;
 }
 
+/* Main Video */
+
+.main-video {
+    width: 100%;
+    height: 65%;
+    border-width: 0px;
+    
+}
+
+/* SIDEBAR */
 
 
 .sidebar {
