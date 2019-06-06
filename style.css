@@ -16,8 +16,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
     position: fixed;
+    top: 0;
     width: 98.7%;
 }
 
@@ -50,7 +50,6 @@ nav {
 .main-video {
     width: 100%;
     height: 65%;
-    border-width: 0px;
     
 }
 
@@ -67,9 +66,7 @@ nav {
 .searchbar{
     width: 500px;
     height: 30px;
-    border: 1px solid grey;
     border-radius: 2px;
-    padding: 0 10px;
     margin: -5px;
 }
 
@@ -110,7 +107,7 @@ button {
     border-bottom: 2px solid lightgray;
 }
 
-.title h1 {
+ h1 {
     margin: 15px 0;
     font-size: 20px;
 }
@@ -227,11 +224,9 @@ button {
 }
 
 .comments-section input {
-
         width: 95%;
-        border-top: none;
-        border-left: none;
-        border-right: none;
+        display: block;
+        border-bottom: 1px solid gray;
         height: 27px;
         font-size: 1rem;
 }
@@ -263,7 +258,7 @@ button {
     color: blue;
 }
 
-#autoplay-button {
+.autoplay-button {
     font-size: 18px;
 }
 
