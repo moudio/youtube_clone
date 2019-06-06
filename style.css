@@ -107,14 +107,18 @@ button {
     border-bottom: 2px solid lightgray;
 }
 
- h1 {
+h1 {
     margin: 15px 0;
     font-size: 20px;
 }
 
+.video-details .views, .video-details .likes .fa{
+    font-size: 25px;
+}
+
+
 .video-details .views {
     margin: 14px 0;
-    font-size: 25px;
     color: rgb(136, 135, 135);
 }
 
@@ -127,10 +131,10 @@ button {
 
 .video-details .likes .fa {
     padding: 20px;
-    font-size: 27px;
     color: rgb(170, 170, 170);
     
 }
+
 
 .underline{
     margin-top: 2px;
@@ -182,8 +186,11 @@ button {
     width: 22px;
 }
 
+.bleacher-title, .description, .sidetitle, .sidedate{
+    font-size: 14px;
+}
+
 .bleacher-title{
-    font-size: 15px;
     font-weight: bold;
 }
 
@@ -191,7 +198,6 @@ button {
 .description {
     margin-top: 15px;
     line-height: 1.6;
-    font-size: 14px;
 }
 
 .description a {
@@ -226,9 +232,10 @@ button {
 .comments-section input {
         width: 95%;
         display: block;
-        border-bottom: 1px solid gray;
         height: 27px;
         font-size: 1rem;
+        border:none;
+        
 }
 
 /* SIDEBAR */
@@ -246,20 +253,16 @@ button {
     color: black;
 }
 
-.upnext {
-    font-size: 17px;
+
+
+.upnext, .autoplay-button {
+    font-size: 16px;
 }
 
-.autoplay {
-    font-size: 14px;
-}
+
 
 .fa-toggle-on {
     color: blue;
-}
-
-.autoplay-button {
-    font-size: 18px;
 }
 
 
@@ -274,12 +277,10 @@ button {
 }
 
 .sidetitle {
-    font-size: 14px;
     font-weight: bold;
 }
 
 .sidedate {
-    font-size: 14px;
     color: lightslategray;
     margin-top: 10px;
 }
