@@ -47,6 +47,10 @@ nav {
 
 /* Main Video */
 
+
+main {
+    width: 70%
+}
 .main-video {
     width: 100%;
     height: 65%;
